@@ -1,8 +1,35 @@
-langchain==0.3.26
-flask==3.1.1 
-sentence-transformers==4.1.0
-pypdf==5.6.1 
-python-dotenv==1.1.0
-langchain-pinecone==0.2.8 
-langchain-openai==0.3.24
-langchain-community==0.3.26
+# Core
+python-dotenv>=1.0.0
+requests>=2.32.0
+
+# Audio
+sounddevice>=0.4.6
+scipy>=1.11.0
+numpy>=1.26.0
+pydub>=0.25.1
+
+# Speech-to-Text (Whisper via Groq)
+groq>=0.9.0
+
+# Text-to-Speech
+gTTS>=2.5.0
+elevenlabs>=1.0.0
+
+# Vision & LLM inference
+huggingface-hub>=0.24.0
+
+# RAG / LangChain utilities (restricted use)
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-pinecone>=0.1.0
+
+# Embeddings
+sentence-transformers>=2.6.0
+
+# Vector DB
+pinecone-client>=3.0.0
+
+fastapi>=0.111.0
+uvicorn>=0.30.0
+gradio>=4.0.0
+streamlit>=1.35.0
